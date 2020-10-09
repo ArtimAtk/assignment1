@@ -1,0 +1,124 @@
+body {
+    background-color: rgb(114, 114, 141);
+    font-family: 'Roboto Slab', serif;
+}
+
+.container {
+    max-width: 1170px;
+    margin : 0 auto;
+}
+
+nav {
+    display: flex;
+    justify-content: wrap;
+    height: 150px;
+    color: #fff;
+}
+
+.userPic{
+    height: 100%;
+    width: auto;
+}
+.userDetails {
+background-color: rgb(61, 41, 15);
+display: flex;
+justify-content: center;
+flex-direction: column;
+flex-wrap: wrap;
+padding: 0px 15px;
+flex-grow: 2;
+}
+.userDetails h1 {
+    margin: 0;
+    font-size: 28px;
+
+}
+.userDetails span {
+    margin: 0;
+    display: inline-block;
+}
+
+
+.home{
+    background-color:rgb(197, 128, 37) ;
+}
+.project{
+    background-color: rgb(116, 42, 42);
+}
+.contact{
+    background-color: rgb(58, 38, 102);
+}
+.about{
+    background-color: rgb(70, 60, 60)
+}
+.service{
+    background-color: rgb(168, 11, 63);
+}
+.home,
+.project,
+.contact,
+.about,
+.service{
+    color:#fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-grow: 1;
+}
+ .home ion-icon,
+ .service ion-icon,
+ .project ion-icon,
+ .contact ion-icon,
+ .about ion-icon{
+ font-size: 100px;
+
+}
+.myinfo{
+    background-color: rgb(11, 128, 56);
+display: flex;
+justify-content: center;
+flex-direction: column;
+flex-wrap: wrap;
+padding: 0px 15px;
+flex-grow: 2;
+}
+.mission{
+    background-color: rgb(11, 128, 56);
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+    padding: 0px 15px;
+    flex-grow: 2;
+    } 
+.contactdetails
+{
+    background-color: rgb(11, 128, 56);
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+    padding: 0px 15px;
+    flex-grow: 2;
+    
+}
+.projectwork
+{
+    background-color: rgb(11, 128, 56);
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+    padding: 0px 15px;
+    flex-grow: 2;
+}
+.serviceinfo
+{
+    background-color: rgb(11, 128, 56);
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+    padding: 0px 15px;
+    flex-grow: 2;
+}
