@@ -1,4 +1,4 @@
-var PORT =process.env.PORT ||3000;
+var PORT =process.env.PORT || 3000;
 const path = require('path');
 const express = require('express');
 const app = express();
@@ -33,6 +33,6 @@ app.get("/service", function(req, res){
 
   res.render("service"); 
 });
-app.listen(3000,() => {
+app.listen(PORT, function() {
     console.log("the server is running on port 3000");
 })
